@@ -6,7 +6,7 @@ description      'Installs/Configures Gunicorn'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '2.1.0'
 
-depends 'python'
+depends 'poise-python'
 
 %w(amazon centos debian fedora oracle redhat scientific ubuntu).each do |os|
   supports os
