@@ -89,7 +89,7 @@ action :delete do
 end
 
 def load_current_resource
-  @current_resource = Chef::Resource::GunicornConfig.new(@new_resource.name)
+  @current_resource = Chef::Resource.resource_for_node(:gunicorn_configure, node).new(@new_resource.name)
   @current_resource.path(@new_resource.path)
   @current_resource
 end
