@@ -107,7 +107,7 @@ Simply include the recipe where you want Gunicorn installed.
 * Twistle Engineering Team ([engineering@twistle.com](mailto:engineering@twistle.io)) 
 
 **Copyright:**
-* Copyright 2011-2016, Chef Software, Inc.
+* Copyright 2011-2016 Chef Software, Inc.
 * Copyright 2018 Twistle, Inc.
 
 ```
