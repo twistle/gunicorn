@@ -103,7 +103,7 @@ Simply include the recipe where you want Gunicorn installed.
 ## License & Authors
 
 **Author:** 
-* Cookbook Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io)) 
+* Chef Cookbook Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io)) 
 * Twistle Engineering Team ([engineering@twistle.com](mailto:engineering@twistle.io)) 
 
 **Copyright:**
