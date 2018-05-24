@@ -4,9 +4,7 @@
 
 Installs and configures the latest version of Gunicorn (via pip), aka `Green Unicorn`, a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model ported from Ruby's Unicorn project. Includes an LWRP for managing Gunicorn config files. By default Gunicorn is installed system-wide but you can target a particular `virtualenv` by overriding the `node["gunicorn"]["virtualenv"]` attribute.
 
-## Deprecation notice
-
-This cookbook has been deprecated. It requires a major rewrite to work on current Chef. We have decided to deprecate it so we can focus our efforts on complex cookbooks that provide more value to the overall Chef community. 
+This cookbook was forked from the Chef gunicorn cookbook and updated to work on recent versions of Chef.
 
 ## Requirements
 
@@ -17,11 +15,11 @@ This cookbook has been deprecated. It requires a major rewrite to work on curren
 
 ### Chef
 
-- Chef 12.1+
+- Chef 14+
 
 ### Cookbooks
 
-- python
+- poise-python
 
 ## Attributes
 
@@ -104,9 +102,12 @@ Simply include the recipe where you want Gunicorn installed.
 
 ## License & Authors
 
-**Author:** Cookbook Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io))
+**Author:** 
+* Cookbook Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io)) 
+* Twistle Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io)) 
 
 **Copyright:** 2011-2016, Chef Software, Inc.
+**Copyright:** 2018 Twistle, Inc.
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
