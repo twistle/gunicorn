@@ -55,7 +55,7 @@ attribute :proc_name, kind_of: String, default: nil
 
 attribute :server_hooks, kind_of: Hash, default: nil, \
                          callbacks: {
-                           'should contain a valid gunicorn server hook name' => ->(hooks) { Chef::Resource::GunicornConfig.validate_server_hook_hash_keys(hooks) },
+                           'should contain a valid gunicorn server hook name' => ->(hooks) { Chef::Resource::Gunicorn::Config.validate_server_hook_hash_keys(hooks) },
                          }
 
 attribute :raw_env, kind_of: Array, default: nil
